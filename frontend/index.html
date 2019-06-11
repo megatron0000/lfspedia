@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="LFSDatabaseModule">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Pacotes do LFS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+
+  <style>
+    input {
+      margin-bottom: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Filtrar pacote</h1>
+  <form>
+    <div>
+      <label for="filtername">Filtrar por nome do pacote</label>
+      <input type="text" id="filtername" ng-model="namefilter">
+    </div>
+    <div>
+      <label for="filterresource">Filtrar por nome do recurso</label>
+      <input type="text" id="filterresource" ng-model="resourcefilter">
+    </div>
+  </form>
+  <div ng-controller="DatabaseFilterController">
+    <ul>
+      <li ng-repeat="package in packages | filter:namefilterFunction">
+        <h2>{{package.name}}</h2>
+        <ul ng-repeat="resourceName in resourceNames"
+          ng-show="package[resourceName].map(resourceFilterFunction).some(identity)">
+          <h3>{{resourceName}}</h3>
+          <ul>
+            <li ng-repeat="resource in package[resourceName] | filter:resourceFilterFunction">
+              {{resource}}
+            </li>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <script src="/node_modules/angular/angular.js"></script>
+  <script src="bundle.js"></script>
+
+</body>
+
+</html>

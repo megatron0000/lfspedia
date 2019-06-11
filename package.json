@@ -1,0 +1,23 @@
+{
+  "name": "lfspedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && DEBUG=express:*  node webserver.js",
+    "build": "browserify frontend/index.js > frontend/bundle.js"
+  },
+  "author": "Vitor Arruda",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "browserify": "^16.2.3",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "minimatch": "^3.0.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "url": "^0.11.0"
+  }
+}

@@ -1,0 +1,1779 @@
+[
+  {
+    "name": "Linux API Headers",
+    "programs": [],
+    "headers": [
+      "/usr/include/asm/*.h",
+      "/usr/include/asm-generic/*.h",
+      "/usr/include/drm/*.h",
+      "/usr/include/linux/*.h",
+      "/usr/include/misc/*.h",
+      "/usr/include/mtd/*.h",
+      "/usr/include/rdma/*.h",
+      "/usr/include/scsi/*.h",
+      "/usr/include/sound/*.h",
+      "/usr/include/video/*.h",
+      "/usr/include/xen/*.h"
+    ],
+    "libraries": [],
+    "directories": [
+      "/usr/include/asm",
+      "/usr/include/asm-generic",
+      "/usr/include/drm",
+      "/usr/include/linux",
+      "/usr/include/misc",
+      "/usr/include/mtd",
+      "/usr/include/rdma",
+      "/usr/include/scsi",
+      "/usr/include/sound",
+      "/usr/include/video",
+      "/usr/include/xen"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Man-pages",
+    "programs": [],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Glibc",
+    "programs": [
+      "catchsegv",
+      "gencat",
+      "getconf",
+      "getent",
+      "iconv",
+      "iconvconfig",
+      "ldconfig",
+      "ldd",
+      "lddlibc4",
+      "locale",
+      "localedef",
+      "makedb",
+      "mtrace",
+      "nscd",
+      "pldd",
+      "sln",
+      "sotruss",
+      "sprof",
+      "tzselect",
+      "xtrace",
+      "zdump",
+      "zic"
+    ],
+    "headers": [],
+    "libraries": [
+      "ld-2.29.so",
+      "libBrokenLocale.{a,so}",
+      "libSegFault.so",
+      "libanl.{a,so}",
+      "libc.{a,so}",
+      "libc_nonshared.a",
+      "libcidn.so",
+      "libcrypt.{a,so}",
+      "libdl.{a,so}",
+      "libg.a",
+      "libieee.a",
+      "libm.{a,so}",
+      "libmcheck.a",
+      "libmemusage.so",
+      "libnsl.{a,so}",
+      "libnss_compat.so",
+      "libnss_dns.so",
+      "libnss_files.so",
+      "libnss_hesiod.so",
+      "libnss_nis.so",
+      "libnss_nisplus.so",
+      "libpthread.{a,so}",
+      "libpthread_nonshared.a",
+      "libresolv.{a,so}",
+      "librpcsvc.a",
+      "librt.{a,so}",
+      "libthread_db.so",
+      "libutil.{a,so}"
+    ],
+    "directories": [
+      "/usr/include/arpa",
+      "/usr/include/bits",
+      "/usr/include/gnu",
+      "/usr/include/net",
+      "/usr/include/netash",
+      "/usr/include/netatalk",
+      "/usr/include/netax25",
+      "/usr/include/neteconet",
+      "/usr/include/netinet",
+      "/usr/include/netipx",
+      "/usr/include/netiucv",
+      "/usr/include/netpacket",
+      "/usr/include/netrom",
+      "/usr/include/netrose",
+      "/usr/include/nfs",
+      "/usr/include/protocols",
+      "/usr/include/rpc",
+      "/usr/include/rpcsvc",
+      "/usr/include/sys",
+      "/usr/lib/audit",
+      "/usr/lib/gconv",
+      "/usr/lib/locale",
+      "/usr/libexec/getconf",
+      "/usr/share/i18n",
+      "/usr/share/zoneinfo",
+      "/var/cache/nscd",
+      "/var/lib/nss_db"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Zlib",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libz.{a,so}"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "File",
+    "programs": [
+      "file"
+    ],
+    "headers": [],
+    "libraries": [
+      "libmagic.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Readline",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libhistory.so",
+      "libreadline.so"
+    ],
+    "directories": [
+      "/usr/include/readline",
+      "/usr/share/readline",
+      "/usr/share/doc/readline-8.0"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "M4",
+    "programs": [
+      "m4"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Bc",
+    "programs": [
+      "bc",
+      "dc"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Binutils",
+    "programs": [
+      "addr2line",
+      "ar",
+      "as",
+      "c++filt",
+      "elfedit",
+      "gprof",
+      "ld",
+      "ld.bfd",
+      "ld.gold",
+      "nm",
+      "objcopy",
+      "objdump",
+      "ranlib",
+      "readelf",
+      "size",
+      "strings",
+      "strip"
+    ],
+    "headers": [],
+    "libraries": [
+      "libbfd.{a,so}",
+      "libopcodes.{a,so}"
+    ],
+    "directories": [
+      "/usr/lib/ldscripts"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "GMP",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libgmp.so",
+      "libgmpxx.so"
+    ],
+    "directories": [
+      "/usr/share/doc/gmp-6.1.2"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "MPFR",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libmpfr.so"
+    ],
+    "directories": [
+      "/usr/share/doc/mpfr-4.0.2"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "MPC",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libmpc.so"
+    ],
+    "directories": [
+      "/usr/share/doc/mpc-1.1.0"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Shadow",
+    "programs": [
+      "chage",
+      "chfn",
+      "chgpasswd",
+      "chpasswd",
+      "chsh",
+      "expiry",
+      "faillog",
+      "gpasswd",
+      "groupadd",
+      "groupdel",
+      "groupmems",
+      "groupmod",
+      "grpck",
+      "grpconv",
+      "grpunconv",
+      "lastlog",
+      "login",
+      "logoutd",
+      "newgidmap",
+      "newgrp",
+      "newuidmap",
+      "newusers",
+      "nologin",
+      "passwd",
+      "pwck",
+      "pwconv",
+      "pwunconv",
+      "sg",
+      "su",
+      "useradd",
+      "userdel",
+      "usermod",
+      "vigr",
+      "vipw"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/etc/default"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "GCC",
+    "programs": [
+      "c++",
+      "cc",
+      "cpp",
+      "g++",
+      "gcc",
+      "gcc-ar",
+      "gcc-nm",
+      "gcc-ranlib",
+      "gcov"
+    ],
+    "headers": [],
+    "libraries": [
+      "libasan.{a,so}",
+      "libatomic.{a,so}",
+      "libgcc.a",
+      "libgcc_eh.a",
+      "libgcc_s.so",
+      "libgcov.a",
+      "libgomp.{a,so}",
+      "libiberty.a",
+      "libitm.{a,so}",
+      "liblto_plugin.so",
+      "libquadmath.{a,so}",
+      "libssp.{a,so}",
+      "libssp_nonshared.a",
+      "libstdc++.{a,so}",
+      "libsupc++.a",
+      "libtsan.{a,so}"
+    ],
+    "directories": [
+      "/usr/include/c++",
+      "/usr/lib/gcc",
+      "/usr/libexec/gcc",
+      "/usr/share/gcc-8.2.0"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Bzip2",
+    "programs": [
+      "bunzip2",
+      "bzcat",
+      "bzcmp",
+      "bzdiff",
+      "bzegrep",
+      "bzfgrep",
+      "bzgrep",
+      "bzip2",
+      "bzip2recover",
+      "bzless",
+      "bzmore"
+    ],
+    "headers": [],
+    "libraries": [
+      "libbz2.{a,so}"
+    ],
+    "directories": [
+      "/usr/share/doc/bzip2-1.0.6"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Pkg-config",
+    "programs": [
+      "pkg-config"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/pkg-config-0.29.2"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Ncurses",
+    "programs": [
+      "captoinfo",
+      "clear",
+      "infocmp",
+      "infotocap",
+      "ncursesw6-config",
+      "reset",
+      "tabs",
+      "tic",
+      "toe",
+      "tput",
+      "tset"
+    ],
+    "headers": [],
+    "libraries": [
+      "libcursesw.so",
+      "libformw.so",
+      "libmenuw.so",
+      "libncursesw.so",
+      "libncurses++w.a",
+      "libpanelw.so",
+      "their non-wide-character\n              counterparts without \"w\" in the library names."
+    ],
+    "directories": [
+      "/usr/share/tabset",
+      "/usr/share/terminfo",
+      "/usr/share/doc/ncurses-6.1"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Attr",
+    "programs": [
+      "attr",
+      "getfattr",
+      "setfattr"
+    ],
+    "headers": [],
+    "libraries": [
+      "libattr.so"
+    ],
+    "directories": [
+      "/usr/include/attr",
+      "/usr/share/doc/attr-2.4.48"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Acl",
+    "programs": [
+      "chacl",
+      "getfacl",
+      "setfacl"
+    ],
+    "headers": [],
+    "libraries": [
+      "libacl.so"
+    ],
+    "directories": [
+      "/usr/include/acl",
+      "/usr/share/doc/acl-2.2.53"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Libcap",
+    "programs": [
+      "capsh",
+      "getcap",
+      "getpcaps",
+      "setcap"
+    ],
+    "headers": [],
+    "libraries": [
+      "libcap.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Sed",
+    "programs": [
+      "sed"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/sed-4.7"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Psmisc",
+    "programs": [
+      "fuser",
+      "killall",
+      "peekfd",
+      "prtstat",
+      "pstree",
+      "pstree.x11"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Iana-Etc",
+    "programs": [],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Bison",
+    "programs": [
+      "bison",
+      "yacc"
+    ],
+    "headers": [],
+    "libraries": [
+      "liby.a"
+    ],
+    "directories": [
+      "/usr/share/bison"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Flex",
+    "programs": [
+      "flex",
+      "flex++",
+      "lex"
+    ],
+    "headers": [],
+    "libraries": [
+      "libfl.so"
+    ],
+    "directories": [
+      "/usr/share/doc/flex-2.6.4"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Grep",
+    "programs": [
+      "egrep",
+      "fgrep",
+      "grep"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Bash",
+    "programs": [
+      "bash",
+      "bashbug",
+      "sh"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/bash-5.0"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Libtool",
+    "programs": [
+      "libtool",
+      "libtoolize"
+    ],
+    "headers": [],
+    "libraries": [
+      "libltdl.so"
+    ],
+    "directories": [
+      "/usr/include/libltdl",
+      "/usr/share/libtool"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "GDBM",
+    "programs": [
+      "gdbm_dump",
+      "gdbm_load",
+      "gdbmtool"
+    ],
+    "headers": [],
+    "libraries": [
+      "libgdbm.so",
+      "libgdbm_compat.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Gperf",
+    "programs": [
+      "gperf"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/gperf-3.1"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Expat",
+    "programs": [
+      "xmlwf"
+    ],
+    "headers": [],
+    "libraries": [
+      "libexpat.so"
+    ],
+    "directories": [
+      "/usr/share/doc/expat-2.2.6"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Inetutils",
+    "programs": [
+      "dnsdomainname",
+      "ftp",
+      "ifconfig",
+      "hostname",
+      "ping",
+      "ping6",
+      "talk",
+      "telnet",
+      "tftp",
+      "traceroute"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Perl",
+    "programs": [
+      "corelist",
+      "cpan",
+      "enc2xs",
+      "encguess",
+      "h2ph",
+      "h2xs",
+      "instmodsh",
+      "json_pp",
+      "libnetcfg",
+      "perl",
+      "perl5.28.1",
+      "perlbug",
+      "perldoc",
+      "perlivp",
+      "perlthanks",
+      "piconv",
+      "pl2pm",
+      "pod2html",
+      "pod2man",
+      "pod2text",
+      "pod2usage",
+      "podchecker",
+      "podselect",
+      "prove",
+      "ptar",
+      "ptardiff",
+      "ptargrep",
+      "shasum",
+      "splain",
+      "xsubpp",
+      "zipdetails"
+    ],
+    "headers": [],
+    "libraries": [
+      "Many which cannot all be listed\n              here"
+    ],
+    "directories": [
+      "/usr/lib/perl5"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "XML::Parser",
+    "programs": [],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [
+      "Expat.so"
+    ],
+    "scripts": []
+  },
+  {
+    "name": "Intltool",
+    "programs": [
+      "intltool-extract",
+      "intltool-merge",
+      "intltool-prepare",
+      "intltool-update",
+      "intltoolize"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/intltool-0.51.0",
+      "/usr/share/intltool"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Autoconf",
+    "programs": [
+      "autoconf",
+      "autoheader",
+      "autom4te",
+      "autoreconf",
+      "autoscan",
+      "autoupdate",
+      "ifnames"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/autoconf"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Automake",
+    "programs": [
+      "aclocal",
+      "aclocal-1.16",
+      "automake",
+      "automake-1.16"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/aclocal-1.16",
+      "/usr/share/automake-1.16",
+      "/usr/share/doc/automake-1.16.1"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Xz",
+    "programs": [
+      "lzcat",
+      "lzcmp",
+      "lzdiff",
+      "lzegrep",
+      "lzfgrep",
+      "lzgrep",
+      "lzless",
+      "lzma",
+      "lzmadec",
+      "lzmainfo",
+      "lzmore",
+      "unlzma",
+      "unxz",
+      "xz",
+      "xzcat",
+      "xzcmp",
+      "xzdec",
+      "xzdiff",
+      "xzegrep",
+      "xzfgrep",
+      "xzgrep",
+      "xzless",
+      "xzmore"
+    ],
+    "headers": [],
+    "libraries": [
+      "liblzma.so"
+    ],
+    "directories": [
+      "/usr/include/lzma",
+      "/usr/share/doc/xz-5.2.4"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Kmod",
+    "programs": [
+      "depmod",
+      "insmod",
+      "kmod",
+      "lsmod",
+      "modinfo",
+      "modprobe",
+      "rmmod"
+    ],
+    "headers": [],
+    "libraries": [
+      "libkmod.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Gettext",
+    "programs": [
+      "autopoint",
+      "envsubst",
+      "gettext",
+      "gettext.sh",
+      "gettextize",
+      "msgattrib",
+      "msgcat",
+      "msgcmp",
+      "msgcomm",
+      "msgconv",
+      "msgen",
+      "msgexec",
+      "msgfilter",
+      "msgfmt",
+      "msggrep",
+      "msginit",
+      "msgmerge",
+      "msgunfmt",
+      "msguniq",
+      "ngettext",
+      "recode-sr-latin",
+      "xgettext"
+    ],
+    "headers": [],
+    "libraries": [
+      "libasprintf.so",
+      "libgettextlib.so",
+      "libgettextpo.so",
+      "libgettextsrc.so",
+      "preloadable_libintl.so"
+    ],
+    "directories": [
+      "/usr/lib/gettext",
+      "/usr/share/doc/gettext-0.19.8.1",
+      "/usr/share/gettext"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Libelf",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libelf.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Libffi",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libffi.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "OpenSSL",
+    "programs": [
+      "c_rehash",
+      "openssl"
+    ],
+    "headers": [],
+    "libraries": [
+      "libcrypto.{so,a}",
+      "libssl.{so,a}"
+    ],
+    "directories": [
+      "/etc/ssl",
+      "/usr/include/openssl",
+      "/usr/lib/engines",
+      "/usr/share/doc/openssl-1.1.1a"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Python 3",
+    "programs": [
+      "2to3",
+      "idle3",
+      "pydoc3",
+      "python3",
+      "python3-config",
+      "pyvenv"
+    ],
+    "headers": [],
+    "libraries": [
+      "libpython3.7m.so",
+      "libpython3.so"
+    ],
+    "directories": [
+      "/usr/include/python3.7m",
+      "/usr/lib/python3",
+      "/usr/share/doc/python-3.7.2"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Ninja",
+    "programs": [
+      "ninja"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Meson",
+    "programs": [
+      "meson",
+      "mesonconf",
+      "mesonintrospect",
+      "mesontest",
+      "wraptool"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/lib/python3.7/site-packages/meson-0.49.2-py3.7.egg"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Coreutils",
+    "programs": [
+      "[",
+      "base32",
+      "base64",
+      "basename",
+      "cat",
+      "chcon",
+      "chgrp",
+      "chmod",
+      "chown",
+      "chroot",
+      "cksum",
+      "comm",
+      "cp",
+      "csplit",
+      "cut",
+      "date",
+      "dd",
+      "df",
+      "dir",
+      "dircolors",
+      "dirname",
+      "du",
+      "echo",
+      "env",
+      "expand",
+      "expr",
+      "factor",
+      "false",
+      "fmt",
+      "fold",
+      "groups",
+      "head",
+      "hostid",
+      "id",
+      "install",
+      "join",
+      "link",
+      "ln",
+      "logname",
+      "ls",
+      "md5sum",
+      "mkdir",
+      "mkfifo",
+      "mknod",
+      "mktemp",
+      "mv",
+      "nice",
+      "nl",
+      "nohup",
+      "nproc",
+      "numfmt",
+      "od",
+      "paste",
+      "pathchk",
+      "pinky",
+      "pr",
+      "printenv",
+      "printf",
+      "ptx",
+      "pwd",
+      "readlink",
+      "realpath",
+      "rm",
+      "rmdir",
+      "runcon",
+      "seq",
+      "sha1sum",
+      "sha224sum",
+      "sha256sum",
+      "sha384sum",
+      "sha512sum",
+      "shred",
+      "shuf",
+      "sleep",
+      "sort",
+      "split",
+      "stat",
+      "stdbuf",
+      "stty",
+      "sum",
+      "sync",
+      "tac",
+      "tail",
+      "tee",
+      "test",
+      "timeout",
+      "touch",
+      "tr",
+      "true",
+      "truncate",
+      "tsort",
+      "tty",
+      "uname",
+      "unexpand",
+      "uniq",
+      "unlink",
+      "users",
+      "vdir",
+      "wc",
+      "who",
+      "whoami",
+      "yes"
+    ],
+    "headers": [],
+    "libraries": [
+      "libstdbuf.so"
+    ],
+    "directories": [
+      "/usr/libexec/coreutils"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Check",
+    "programs": [
+      "checkmk"
+    ],
+    "headers": [],
+    "libraries": [
+      "libcheck.{a,so}"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Diffutils",
+    "programs": [
+      "cmp",
+      "diff",
+      "diff3",
+      "sdiff"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Gawk",
+    "programs": [
+      "awk",
+      "gawk",
+      "awk-4.2.1"
+    ],
+    "headers": [],
+    "libraries": [
+      "filefuncs.so",
+      "fnmatch.so",
+      "fork.so",
+      "inplace.so",
+      "ordchr.so",
+      "readdir.so",
+      "readfile.so",
+      "revoutput.so",
+      "revtwoway.so",
+      "rwarray.so",
+      "testext.so",
+      "time.so"
+    ],
+    "directories": [
+      "/usr/lib/gawk",
+      "/usr/libexec/awk",
+      "/usr/share/awk",
+      "/usr/share/doc/gawk-4.2.1"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Findutils",
+    "programs": [
+      "find",
+      "locate",
+      "updatedb",
+      "xargs"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Groff",
+    "programs": [
+      "addftinfo",
+      "afmtodit",
+      "chem",
+      "eqn",
+      "eqn2graph",
+      "gdiffmk",
+      "glilypond",
+      "gperl",
+      "gpinyin",
+      "grap2graph",
+      "grn",
+      "grodvi",
+      "groff",
+      "groffer",
+      "grog",
+      "grolbp",
+      "grolj4",
+      "gropdf",
+      "grops",
+      "grotty",
+      "hpftodit",
+      "indxbib",
+      "lkbib",
+      "lookbib",
+      "mmroff",
+      "neqn",
+      "nroff",
+      "pdfmom",
+      "pdfroff",
+      "pfbtops",
+      "pic",
+      "pic2graph",
+      "post-grohtml",
+      "preconv",
+      "pre-grohtml",
+      "refer",
+      "roff2dvi",
+      "roff2html",
+      "roff2pdf",
+      "roff2ps",
+      "roff2text",
+      "roff2x",
+      "soelim",
+      "tbl",
+      "tfmtodit",
+      "troff"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/lib/groff",
+      "/usr/share/doc/groff-1.22.4",
+      "/usr/share/groff"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "GRUB",
+    "programs": [
+      "grub-bios-setup",
+      "grub-editenv",
+      "grub-file",
+      "grub-fstest",
+      "grub-glue-efi",
+      "grub-install",
+      "grub-kbdcomp",
+      "grub-macbless",
+      "grub-menulst2cfg",
+      "grub-mkconfig",
+      "grub-mkimage",
+      "grub-mklayout",
+      "grub-mknetdir",
+      "grub-mkpasswd-pbkdf2",
+      "grub-mkrelpath",
+      "grub-mkrescue",
+      "grub-mkstandalone",
+      "grub-ofpathname",
+      "grub-probe",
+      "grub-reboot",
+      "grub-render-label",
+      "grub-script-check",
+      "grub-set-default",
+      "grub-sparc64-setup",
+      "grub-syslinux2cfg"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/lib/grub",
+      "/etc/grub.d",
+      "/usr/share/grub",
+      "boot/grub"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Less",
+    "programs": [
+      "less",
+      "lessecho",
+      "lesskey"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Gzip",
+    "programs": [
+      "gunzip",
+      "gzexe",
+      "gzip",
+      "uncompress",
+      "zcat",
+      "zcmp",
+      "zdiff",
+      "zegrep",
+      "zfgrep",
+      "zforce",
+      "zgrep",
+      "zless",
+      "zmore",
+      "znew"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "IPRoute2",
+    "programs": [
+      "bridge",
+      "ctstat",
+      "genl",
+      "ifcfg",
+      "ifstat",
+      "ip",
+      "lnstat",
+      "nstat",
+      "routef",
+      "routel",
+      "rtacct",
+      "rtmon",
+      "rtpr",
+      "rtstat",
+      "ss",
+      "tc"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/etc/iproute2",
+      "/usr/lib/tc",
+      "/usr/share/doc/iproute2-4.20.0"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Kbd",
+    "programs": [
+      "chvt",
+      "deallocvt",
+      "dumpkeys",
+      "fgconsole",
+      "getkeycodes",
+      "kbdinfo",
+      "kbd_mode",
+      "kbdrate",
+      "loadkeys",
+      "loadunimap",
+      "mapscrn",
+      "openvt",
+      "psfaddtable",
+      "psfgettable",
+      "psfstriptable",
+      "psfxtable",
+      "setfont",
+      "setkeycodes",
+      "setleds",
+      "setmetamode",
+      "setvtrgb",
+      "showconsolefont",
+      "showkey",
+      "unicode_start",
+      "unicode_stop"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/consolefonts",
+      "/usr/share/consoletrans",
+      "/usr/share/keymaps",
+      "/usr/share/doc/kbd-2.0.4",
+      "/usr/share/unimaps"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Libpipeline",
+    "programs": [],
+    "headers": [],
+    "libraries": [
+      "libpipeline.so"
+    ],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Make",
+    "programs": [
+      "make"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Patch",
+    "programs": [
+      "patch"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Man-DB",
+    "programs": [
+      "accessdb",
+      "apropos",
+      "catman",
+      "lexgrog",
+      "man",
+      "mandb",
+      "manpath",
+      "whatis"
+    ],
+    "headers": [],
+    "libraries": [
+      "libman.so",
+      "libmandb.so"
+    ],
+    "directories": [
+      "/usr/lib/man-db",
+      "/usr/lib/tmpfiles.d",
+      "/usr/libexec/man-db",
+      "/usr/share/doc/man-db-2.8.5"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Tar",
+    "programs": [
+      "tar"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/doc/tar-1.31"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Texinfo",
+    "programs": [
+      "info",
+      "install-info",
+      "makeinfo",
+      "pdftexi2dvi",
+      "pod2texi",
+      "texi2any",
+      "texi2dvi",
+      "texi2pdf",
+      "texindex"
+    ],
+    "headers": [],
+    "libraries": [
+      "XSParagraph.so"
+    ],
+    "directories": [
+      "/usr/share/texinfo",
+      "/usr/lib/texinfo"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Vim",
+    "programs": [
+      "ex",
+      "rview",
+      "rvim",
+      "vi",
+      "view",
+      "vim",
+      "vimdiff",
+      "vimtutor",
+      "xxd"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/usr/share/vim"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Procps-ng",
+    "programs": [
+      "free",
+      "pgrep",
+      "pidof",
+      "pkill",
+      "pmap",
+      "ps",
+      "pwdx",
+      "slabtop",
+      "sysctl",
+      "tload",
+      "top",
+      "uptime",
+      "vmstat",
+      "w",
+      "watch"
+    ],
+    "headers": [],
+    "libraries": [
+      "libprocps.so"
+    ],
+    "directories": [
+      "/usr/include/proc",
+      "/usr/share/doc/procps-ng-3.3.15"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Util-linux",
+    "programs": [
+      "addpart",
+      "agetty",
+      "blkdiscard",
+      "blkid",
+      "blockdev",
+      "cal",
+      "cfdisk",
+      "chcpu",
+      "choom",
+      "chrt",
+      "col",
+      "colcrt",
+      "colrm",
+      "column",
+      "ctrlaltdel",
+      "delpart",
+      "dmesg",
+      "eject",
+      "fallocate",
+      "fdformat",
+      "fdisk",
+      "findfs",
+      "findmnt",
+      "flock",
+      "fsck",
+      "fsck.cramfs",
+      "fsck.minix",
+      "fsfreeze",
+      "fstrim",
+      "getopt",
+      "hexdump",
+      "hwclock",
+      "i386",
+      "ionice",
+      "ipcmk",
+      "ipcrm",
+      "ipcs",
+      "isosize",
+      "kill",
+      "last",
+      "lastb",
+      "ldattach",
+      "linux32",
+      "linux64",
+      "logger",
+      "look",
+      "losetup",
+      "lsblk",
+      "lscpu",
+      "lsipc",
+      "lslocks",
+      "lslogins",
+      "mcookie",
+      "mesg",
+      "mkfs",
+      "mkfs.bfs",
+      "mkfs.cramfs",
+      "mkfs.minix",
+      "mkswap",
+      "more",
+      "mount",
+      "mountpoint",
+      "namei",
+      "nsenter",
+      "partx",
+      "pg",
+      "pivot_root",
+      "prlimit",
+      "raw",
+      "readprofile",
+      "rename",
+      "renice",
+      "resizepart",
+      "rev",
+      "rtcwake",
+      "script",
+      "scriptreplay",
+      "setarch",
+      "setsid",
+      "setterm",
+      "sfdisk",
+      "sulogin",
+      "swaplabel",
+      "swapoff",
+      "swapon",
+      "switch_root",
+      "tailf",
+      "taskset",
+      "ul",
+      "umount",
+      "uname26",
+      "unshare",
+      "utmpdump",
+      "uuidd",
+      "uuidgen",
+      "wall",
+      "wdctl",
+      "whereis",
+      "wipefs",
+      "x86_64",
+      "zramctl"
+    ],
+    "headers": [],
+    "libraries": [
+      "libblkid.so",
+      "libfdisk.so",
+      "libmount.so",
+      "libsmartcols.so",
+      "libuuid.so"
+    ],
+    "directories": [
+      "/usr/include/blkid",
+      "/usr/include/libfdisk",
+      "/usr/include/libmount",
+      "/usr/include/libsmartcols",
+      "/usr/include/uuid",
+      "/usr/share/doc/util-linux-2.33.1",
+      "/var/lib/hwclock"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "E2fsprogs",
+    "programs": [
+      "badblocks",
+      "chattr",
+      "compile_et",
+      "debugfs",
+      "dumpe2fs",
+      "e2freefrag",
+      "e2fsck",
+      "e2image",
+      "e2label",
+      "e2undo",
+      "e4defrag",
+      "filefrag",
+      "fsck.ext2",
+      "fsck.ext3",
+      "fsck.ext4",
+      "fsck.ext4dev",
+      "logsave",
+      "lsattr",
+      "mk_cmds",
+      "mke2fs",
+      "mkfs.ext2",
+      "mkfs.ext3",
+      "mkfs.ext4",
+      "mkfs.ext4dev",
+      "mklost+found",
+      "resize2fs",
+      "tune2fs"
+    ],
+    "headers": [],
+    "libraries": [
+      "libcom_err.so",
+      "libe2p.so",
+      "libext2fs.so",
+      "libss.so"
+    ],
+    "directories": [
+      "/usr/include/e2p",
+      "/usr/include/et",
+      "/usr/include/ext2fs",
+      "/usr/include/ss",
+      "/usr/share/et",
+      "/usr/share/ss"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Sysklogd",
+    "programs": [
+      "klogd",
+      "syslogd"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Sysvinit",
+    "programs": [
+      "bootlogd",
+      "fstab-decode",
+      "halt",
+      "init",
+      "killall5",
+      "poweroff",
+      "reboot",
+      "runlevel",
+      "shutdown",
+      "telinit"
+    ],
+    "headers": [],
+    "libraries": [],
+    "directories": [],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "Eudev",
+    "programs": [
+      "udevadm",
+      "udevd"
+    ],
+    "headers": [],
+    "libraries": [
+      "libudev.so"
+    ],
+    "directories": [
+      "/etc/udev",
+      "/lib/udev",
+      "/usr/share/doc/udev-udev-lfs-20171102"
+    ],
+    "modules": [],
+    "scripts": []
+  },
+  {
+    "name": "LFS-Bootscripts",
+    "programs": [],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/etc/rc.d",
+      "/etc/init.d",
+      "/etc/sysconfig",
+      "/lib/services",
+      "/lib/lsb"
+    ],
+    "modules": [],
+    "scripts": [
+      "checkfs",
+      "cleanfs",
+      "console",
+      "functions",
+      "halt",
+      "ifdown",
+      "ifup",
+      "localnet",
+      "modules",
+      "mountfs",
+      "mountvirtfs",
+      "network",
+      "rc",
+      "reboot",
+      "sendsignals",
+      "setclock",
+      "ipv4-static",
+      "swap",
+      "sysctl",
+      "sysklogd",
+      "template",
+      "udev",
+      "udev_retry"
+    ]
+  },
+  {
+    "name": "Linux",
+    "programs": [],
+    "headers": [],
+    "libraries": [],
+    "directories": [
+      "/lib/modules",
+      "/usr/share/doc/linux-4.20.12"
+    ],
+    "modules": [],
+    "scripts": []
+  }
+]
