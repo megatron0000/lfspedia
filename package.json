@@ -11,7 +11,7 @@
   "author": "Vitor Arruda",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "browserify": "^16.2.3",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
